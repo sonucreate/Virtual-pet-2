@@ -32,6 +32,7 @@ function setup() {
 
 function draw() {  
   background("red");
+  console.log("press up arrow to feed,press down arrow to add food , miss i dont know why the images are not appearing");
   fill("blue");
   textSize(15);
   text("Food:"+Food,50,40);
